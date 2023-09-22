@@ -107,7 +107,6 @@ public class UserDaoHibernateImpl implements UserDao {
 
         } catch (Exception e) {
             System.out.println("Exception getAllUsers " + e);
-            return result;
         }
 
         return result;
